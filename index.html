@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container dchange">
+      <h3>Log In</h3>
+      <div class="login">
+        <input type="email" id="emailInput" placeholder="Enter  e-mail" />
+        <br />
+        <input type="password" id="pasword" placeholder="Enter Password" />
+      </div>
+      <br />
+      <br />
+      <button id=" button1" onclick="cheack()">Log In</button>
+      <button id="button2">Sign Up</button>
+    </div>
+    <div class="container2" id="habib">
+      <h3>Sign Up</h3>
+      <form action="" id="form2">
+        <input type="text" id="userName" placeholder="username" />
+        <input type="email" id="email2" placeholder="Email id" />
+        <input type="password" id="pasword1" placeholder="pasword" />
+        <input
+          id="rgstr_btn"
+          type="submit"
+          value="Create Account"
+          onClick="store(event)"
+        />
+        <button id="butnLogIn">Log In</button>
+      </form>
+    </div>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
